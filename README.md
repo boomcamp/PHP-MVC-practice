@@ -7,7 +7,7 @@ Complete the `crud` functionality from previous `ACTIVE RECORD` lesson.
 
 2.) Update your controller.
 
-<details open>
+<details>
 <summary> application/controllers/Example_controller.php </summary>
 <br>
 
@@ -101,7 +101,7 @@ class Example_controller extends CI_Controller
 
 3.) Create these two views 
 
-<details open>
+<details>
 <summary> application/views/create_view.php </summary>
 <br>
 
@@ -123,7 +123,7 @@ class Example_controller extends CI_Controller
 ```
 </details>
 
-<details open>
+<details>
 <summary> application/views/update_view.php </summary>
 <br>
 
