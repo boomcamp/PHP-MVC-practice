@@ -32,13 +32,12 @@ class Example_controller extends CI_Controller
 	public function index()
 	{
 
-	$data['title'] = 'Active Record - Demo';
-	$config["base_url"] = base_url().'example_controller/index';
+		$data['title'] = 'Active Record - Demo';
+		$config["base_url"] = base_url().'example_controller/index';
+		$data["mentors_array"] = $this->model_mentor->get_mentor();
+		$data["joined_array"] = $this->model_mentor->get_result(1);
 
-	$data["mentors_array"] = $this->model_mentor->get_mentor();
-    $data["joined_array"] = $this->model_mentor->get_result(1);
-
-	$this->load->view('mentor_view', $data);
+		$this->load->view('mentor_view', $data);
 	}
 
 	# URL: http://localhost/my-app/index.php/example_controller/create_mentor
