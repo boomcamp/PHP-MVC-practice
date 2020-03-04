@@ -4,7 +4,7 @@ These code snippet contains a custom validation error messages you need to compl
 # Instructions
 
 ### Step 1
-* Update `application/config/config.php` and set the base url of the application `$config['base_url'] = 'http://localhost/my-app';`;
+* Update `application/config/config.php` and set the base url of the application `$config['base_url'] = 'http://localhost/my-app';`.
 
 ### Step 2
 * Update your controller.
