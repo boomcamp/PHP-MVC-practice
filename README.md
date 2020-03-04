@@ -3,9 +3,9 @@ These code snippet contains a custom validation error messages you need to compl
 
 # Instructions
 
-1.) Update `application/config/config.php` and set the base url of the application `$config['base_url'] = 'http://localhost/my-app';`;
+* Step 1: Update `application/config/config.php` and set the base url of the application `$config['base_url'] = 'http://localhost/my-app';`;
 
-2.) Update your controller.
+* Step 2: Update your controller.
 
 <details>
 <summary> application/controllers/Example_controller.php </summary>
@@ -99,7 +99,7 @@ class Example_controller extends CI_Controller
 ```
 </details>
 
-3.) Create these two views 
+Step 3: Create these two views.
 
 <details>
 <summary> application/views/create_view.php </summary>
