@@ -1,5 +1,5 @@
-# PHP-MVC-practice
-These code snippet contains a custom validation error messages you need to complete the `insert`, `update` and `delete` functionality from the previous `ACTIVE RECORD` lesson. 
+# MVC Practice
+This code snippet contains a custom validation error messages you need to complete the `insert`, `update` and `delete` functionality from the previous `ACTIVE RECORD` lesson. 
 
 # Instructions
 
