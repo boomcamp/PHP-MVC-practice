@@ -79,7 +79,7 @@ class Example_controller extends CI_Controller
 		    if(!$this->error){
 		    	echo "Updated and Validated";
 		    	# https://codeigniter.com/user_guide/database/query_builder.html#updating-data
-		    	# Perform your insert query for `example_model` 
+		    	# Perform your update query for `example_model` 
 		    	# update_mentor($this->input->post());
 		    }
 		}
