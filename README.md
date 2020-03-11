@@ -1,4 +1,4 @@
-# MVC Practice
+# Introduction
 This code snippet contains a custom validation error messages you need to complete the `insert`, `update` and `delete` functionality from the previous `ACTIVE RECORD` lesson. 
 
 # Instructions
